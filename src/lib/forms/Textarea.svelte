@@ -5,7 +5,7 @@
 </script>
 
 <textarea
-    class="block w-full p-2 border border-slate-400 rounded"
+    class="block w-full p-2 rounded bg-gray-700"
     bind:value
     id={name}
 />

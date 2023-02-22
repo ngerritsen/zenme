@@ -36,27 +36,27 @@
 
 <form on:submit={onSubmit}>
 	<div class="mb-4">
-		<Label name="situation">Situation</Label>
+		<Label name="situation">Situation, what is happening?</Label>
 		<Textarea bind:value={situation} name="situation" />
 	</div>
 	<div class="mb-4">
-		<Label name="thought">Thought</Label>
+		<Label name="thought">Thoughts, what thoughts emerge?</Label>
 		<Textarea bind:value={thought} name="thought" />
 	</div>
 	<div class="mb-4">
-		<Label name="emotion">Emotion</Label>
+		<Label name="emotion">Emotions, what are you feeling?</Label>
 		<Textarea bind:value={emotion} name="emotion" />
 	</div>
 	<div class="mb-4">
-		<Label name="behaviour">Behaviour</Label>
+		<Label name="behaviour">Behaviour, how are you responding?</Label>
 		<Textarea bind:value={behaviour} name="behaviour" />
 	</div>
 	<div class="mb-4">
-		<Label name="helpfulThought">Helpful thought</Label>
+		<Label name="helpfulThought">What would be helpful thoughts?</Label>
 		<Textarea bind:value={helpfulThought} name="helpfulThought" />
 	</div>
 	<div class="mb-4">
-		<Label name="helpfulBehaviour">Helpful behaviour</Label>
+		<Label name="helpfulBehaviour">What would be helpful behaviour?</Label>
 		<Textarea bind:value={helpfulBehaviour} name="helpfulBehaviour" />
 	</div>
     <Button type="submit">Save</Button>

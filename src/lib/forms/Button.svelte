@@ -5,9 +5,9 @@
 </script>
 
 <button
-	class="py-2 px-3 text-white font-bold rounded"
-	class:bg-blue-600={color == 'primary'}
-	class:bg-red-600={color == 'danger'}
+	class="py-2 px-4 text-white font-bold rounded"
+	class:bg-purple-600={color == 'primary'}
+	class:bg-rose-600={color == 'danger'}
 	on:click={onClick}
 	{type}><slot /></button
 >
