@@ -9,7 +9,7 @@
 </script>
 
 <input
-    class="block w-full p-2 rounded bg-gray-700"
+    class="block w-full p-2 rounded bg-gray-200 dark:bg-gray-700"
     bind:value
     id={name}
     use:setType
