@@ -8,5 +8,7 @@ module.exports = {
       serif: "'Source Serif Pro', serif"
     }
   },
-  plugins: []
+  plugins: [
+    require('@tailwindcss/typography'),
+  ]
 };

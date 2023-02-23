@@ -22,7 +22,7 @@
 
 <form on:submit={onSubmit}>
 	<div class="mb-6">
-		<Label name="content">Write about your day:</Label>
+		<Label name="content">Write about your day (markdown allowed):</Label>
 		<Textarea rows={21} bind:value={payload.content} name="content" />
 	</div>
 	<Button type="submit">Done</Button>
