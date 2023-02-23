@@ -15,7 +15,7 @@
 <Header {loggedIn} />
 
 {#if loggedIn}
-	<div class="max-w-screen-lg p-6 mx-auto">
+	<div class="max-w-screen-lg p-4 md:p-6 mx-auto">
 		<slot />
 	</div>
 {:else}
