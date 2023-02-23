@@ -12,7 +12,7 @@
 	});
 </script>
 
-<Header />
+<Header {loggedIn} />
 
 {#if loggedIn}
 	<div class="max-w-screen-lg p-6 mx-auto">
